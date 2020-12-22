@@ -34,7 +34,7 @@
 			"preLaunchTask": "(gcc) Compile"
 		},
 		{
-            "name:: "(rust) Launch"
+            "name: "(rust) Launch"
             "type": "lldb",
 			"request": "launch",
 			"name": "Debug",
