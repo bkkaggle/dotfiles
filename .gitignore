@@ -1,0 +1,16 @@
+.vscode/
+
+__pycache__
+wandb/
+data/
+
+target/
+pkg/
+Cargo.lock
+
+node_modules/
+build/
+package-lock.json
+
+*.out
+*.o

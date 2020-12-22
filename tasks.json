@@ -1,0 +1,70 @@
+{
+    "version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "(clang) Compile",
+			"command": "clang",
+			"args": ["-g", "-Wall", "${file}", "-o", "${fileDirname}/${fileBasenameNoExtension}.o"],
+			"options": {
+				"cwd": "${workspaceFolder}"
+			},
+			"problemMatcher": ["$gcc"],
+			"group": "build",
+			"detail": "compiler: /usr/bin/clang"
+		},
+		{
+			"type": "cppbuild",
+			"label": "(gcc) Compile",
+			"command": "gcc",
+			"args": ["-g", "-Wall", "${file}", "-o", "${fileDirname}/${fileBasenameNoExtension}.o"],
+			"options": {
+				"cwd": "${workspaceFolder}"
+			},
+			"problemMatcher": ["$gcc"],
+			"group": "build",
+			"detail": "compiler: /usr/bin/gcc"
+		},
+        		{
+			"label": "(cargo) Build",
+			"type": "shell",
+			"command": "cargo",
+			"args": ["build"],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
+		{
+			"label": "(cargo) Run",
+			"type": "shell",
+			"command": "cargo",
+			"args": ["run"],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
+		{
+			"label": "(cargo) Test",
+			"type": "shell",
+			"command": "cargo",
+			"args": ["test"],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
+		{
+			"label": "(cargo) Benchmark",
+			"type": "shell",
+			"command": "cargo",
+			"args": ["bench"],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
+	]
+}
+
