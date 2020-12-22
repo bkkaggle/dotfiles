@@ -1,0 +1,45 @@
+{	
+	"version": "0.2.0",	
+	"configurations": [	
+		{	
+            "name": "Python: Remote Attach",	
+			"type": "python",	
+			"request": "attach",	
+			"port": 5678,	
+			"host": "localhost",	
+			"pathMappings": [{ "localRoot": "${workspaceFolder}", "remoteRoot": "." }]	
+		},	
+		{	
+			"name": "(lldb) Launch",	
+			"type": "cppdbg",	
+			"request": "launch",	
+			"program": "${fileDirname}/${fileBasenameNoExtension}.o",	
+			"stopAtEntry": false,	
+			"cwd": "${workspaceFolder}",	
+			"environment": [],	
+			"externalConsole": false,	
+			"MIMode": "lldb",	
+			"preLaunchTask": "(clang) Compile"	
+		},	
+		{	
+			"name": "(gdb) Launch",	
+			"type": "cppdbg",	
+			"request": "launch",	
+			"program": "${fileDirname}/${fileBasenameNoExtension}.o",	
+			"stopAtEntry": false,	
+			"cwd": "${workspaceFolder}",	
+			"environment": [],	
+			"externalConsole": false,	
+			"MIMode": "gdb",	
+			"preLaunchTask": "(gcc) Compile",	
+            "miDebuggerPath": "/usr/bin/gdb"	
+        },	
+		{	
+            "name": "(rust) Launch",	
+            "type": "lldb",	
+            "request": "launch",	
+            "program": "${workspaceRoot}/target/debug/main",	
+            "cwd": "${workspaceRoot}"	
+		}	
+	]	
+}	
