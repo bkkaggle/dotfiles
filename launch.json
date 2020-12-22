@@ -31,8 +31,9 @@
 			"environment": [],
 			"externalConsole": false,
 			"MIMode": "gdb",
-			"preLaunchTask": "(gcc) Compile"
-		},
+			"preLaunchTask": "(gcc) Compile",
+            "miDebuggerPath": "/usr/bin/gdb"
+        },
 		{
             "name": "(rust) Launch",
             "type": "lldb",
