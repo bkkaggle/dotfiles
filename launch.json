@@ -37,7 +37,6 @@
             "name": "(rust) Launch",
             "type": "lldb",
             "request": "launch",
-            "name": "Debug",
             "program": "${workspaceRoot}/target/debug/main",
             "cwd": "${workspaceRoot}"
 		}
