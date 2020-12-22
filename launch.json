@@ -34,12 +34,12 @@
 			"preLaunchTask": "(gcc) Compile"
 		},
 		{
-            "name: "(rust) Launch"
+            "name: "(rust) Launch",
             "type": "lldb",
-			"request": "launch",
-			"name": "Debug",
-			"program": "${workspaceRoot}/target/debug/main",
-			"cwd": "${workspaceRoot}"
+            "request": "launch",
+            "name": "Debug",
+            "program": "${workspaceRoot}/target/debug/main",
+            "cwd": "${workspaceRoot}"
 		}
 
 	]
