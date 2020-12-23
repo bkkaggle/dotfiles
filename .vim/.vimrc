@@ -164,6 +164,11 @@ call plug#begin('~/.vim/plugged')
 
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'hugolgst/vimsence'
+Plug 'lervag/vimtex'
+Plug 'sirver/ultisnips'
+    let g:UltiSnipsExpandTrigger = '<tab>'
+    let g:UltiSnipsJumpForwardTrigger = '<tab>'
+    let g:UltiSnipsJumpBackwardTrigger = '<s-tab>'
 
 call plug#end()
 
@@ -182,3 +187,8 @@ set backspace=indent,eol,start
 syntax enable
 
 nnoremap ; :
+inoremap { {}<Left>
+inoremap ( ()<Left>
+inoremap <expr> ) getline('.')[getpos('.')[2] - 1] == ')' ? '<Right>' : ')'
+inoremap <expr> } getline('.')[getpos('.')[2] - 1] == '}' ? '<Right>' : ')'
+
