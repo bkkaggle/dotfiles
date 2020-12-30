@@ -189,6 +189,7 @@ syntax enable
 nnoremap ; :
 inoremap { {}<Left>
 inoremap ( ()<Left>
+inoremap [ []<Left>
+
 inoremap <expr> ) getline('.')[getpos('.')[2] - 1] == ')' ? '<Right>' : ')'
 inoremap <expr> } getline('.')[getpos('.')[2] - 1] == '}' ? '<Right>' : ')'
-
