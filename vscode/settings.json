@@ -37,7 +37,7 @@
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
 	"[python]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
+		"editor.defaultFormatter": "ms-python.python"
 	},
 	"[jsonc]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
