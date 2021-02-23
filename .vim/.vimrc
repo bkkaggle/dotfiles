@@ -169,6 +169,7 @@ Plug 'sirver/ultisnips'
     let g:UltiSnipsExpandTrigger = '<tab>'
     let g:UltiSnipsJumpForwardTrigger = '<tab>'
     let g:UltiSnipsJumpBackwardTrigger = '<s-tab>'
+Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }
 
 call plug#end()
 
@@ -193,3 +194,12 @@ inoremap [ []<Left>
 
 inoremap <expr> ) getline('.')[getpos('.')[2] - 1] == ')' ? '<Right>' : ')'
 inoremap <expr> } getline('.')[getpos('.')[2] - 1] == '}' ? '<Right>' : ')'
+
+" remap neovim exit terminal mode
+:tnoremap <Esc> <C-\><C-n>
+
+" remap neovim split pane traversal
+nnoremap mj <C-W><C-J>
+nnoremap mk <C-W><C-K>
+nnoremap ml <C-W><C-L>
+nnoremap mh <C-W><C-H>
