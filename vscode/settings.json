@@ -5,6 +5,14 @@
 	"search.exclude": {
 		"**/node_modules": true
 	},
+	"debug.allowBreakpointsEverywhere": true,
+	"editor.wordWrap": "on",
+	"editor.smoothScrolling": true,
+	"editor.suggestSelection": "first",
+	"editor.fontFamily": "JetBrains Mono, Fira Code,  Menlo, Monaco, 'Courier New', monospace",
+	"editor.fontLigatures": "tab",
+	"editor.minimap.enabled": false,
+	"editor.formatOnSave": true,
 	"workbench.iconTheme": "material-icon-theme",
 	"workbench.colorTheme": "GitHub Dark",
 	"workbench.startupEditor": "none",
@@ -13,23 +21,27 @@
 		"gitlens.lineHighlightOverviewRulerColor": "#ff0000"
 	},
 	"workbench.editorAssociations": [],
-	"editor.wordWrap": "on",
-	"editor.smoothScrolling": true,
-	"editor.suggestSelection": "first",
-	"editor.fontFamily": "JetBrains Mono, Fira Code,  Menlo, Monaco, 'Courier New', monospace",
-	"editor.fontLigatures": true,
-	"editor.minimap.enabled": false,
-	"editor.formatOnSave": true,
-	"editor.defaultFormatter": "esbenp.prettier-vscode",
 	"task.problemMatchers.neverPrompt": {
 		"shell": true
 	},
-	"debug.allowBreakpointsEverywhere": true,
 	"terminal.integrated.shell.osx": "/bin/zsh",
+	"terminal.integrated.inheritEnv": false,
 	"git.autofetch": true,
 	"git.confirmSync": false,
-	"sync.gist": "4ae35fb5439214fac281eda4f924e619",
+	"prettier.configPath": "/Users/bilal/.prettierrc",
 	"gitlens.currentLine.scrollable": false,
+	"sync.gist": "4ae35fb5439214fac281eda4f924e619",
+	"lldb.launch.expressions": "simple",
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"python.languageServer": "Pylance",
+	"python.showStartPage": false,
+	"jupyter.textOutputLimit": 0,
+	"jupyter.askForKernelRestart": false,
+	"latex-workshop.view.pdf.viewer": "tab",
+	"latex-workshop.docker.image.latex": "tianon/latexlatexindent",
+	"rust-analyzer.debug.openDebugPane": true,
+	"rust-analyzer.checkOnSave.command": "clippy",
+	"C_Cpp.default.intelliSenseMode": "clang-x64",
 	"[json]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
@@ -42,15 +54,7 @@
 	"[jsonc]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
-	"javascript.updateImportsOnFileMove.enabled": "always",
-	"python.languageServer": "Pylance",
-	"jupyter.askForKernelRestart": false,
-	"latex-workshop.view.pdf.viewer": "tab",
-	"latex-workshop.docker.image.latex": "tianon/latexlatexindent",
-	"jupyter.textOutputLimit": 0,
-	"rust-analyzer.debug.openDebugPane": true,
-	"rust-analyzer.checkOnSave.command": "clippy",
-	"C_Cpp.default.intelliSenseMode": "clang-x64",
-	"lldb.launch.expressions": "simple",
-	"prettier.configPath": "/Users/bilal/.prettierrc"
+	"[html]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	}
 }

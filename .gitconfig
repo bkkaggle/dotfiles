@@ -1,0 +1,7 @@
+[user]
+    name = Bilal Khan
+    email = bkkaggle@gmail.com
+[credential]
+    helper = osxkeychain
+[core]
+	excludesfile = /Users/bilal/.gitignore
