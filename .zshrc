@@ -30,3 +30,6 @@ if [ -f '/Users/bilal/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/bil
 
 # starship
 eval "$(starship init zsh)"
+
+alias v='nvim'
+alias e='exa'

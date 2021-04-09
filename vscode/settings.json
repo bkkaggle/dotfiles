@@ -20,7 +20,12 @@
 		"gitlens.trailingLineForegroundColor": "#999999",
 		"gitlens.lineHighlightOverviewRulerColor": "#ff0000"
 	},
-	"workbench.editorAssociations": [],
+	"workbench.editorAssociations": [
+		{
+			"viewType": "jupyter.notebook.ipynb",
+			"filenamePattern": "*.ipynb"
+		}
+	],
 	"task.problemMatchers.neverPrompt": {
 		"shell": true
 	},
@@ -56,5 +61,6 @@
 	},
 	"[html]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	}
+	},
+	"jupyter.alwaysTrustNotebooks": true
 }

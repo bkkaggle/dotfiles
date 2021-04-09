@@ -15,7 +15,7 @@ codesign --remove-signature /Applications/Visual\ Studio\ Code.app/Contents/Fram
 
 # homebrew
 #/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-#brew install vim neovim wget llvm tmux starship
+#brew install vim neovim wget llvm tmux starship exa bat
 #brew install --cask mactex
 
 # node
