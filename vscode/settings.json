@@ -12,7 +12,6 @@
 	"editor.fontFamily": "JetBrains Mono, Fira Code,  Menlo, Monaco, 'Courier New', monospace",
 	"editor.fontLigatures": "tab",
 	"editor.minimap.enabled": false,
-	"editor.formatOnSave": true,
 	"workbench.iconTheme": "material-icon-theme",
 	"workbench.colorTheme": "GitHub Dark",
 	"workbench.startupEditor": "none",
@@ -62,5 +61,11 @@
 	"[html]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
-	"jupyter.alwaysTrustNotebooks": true
+	"jupyter.alwaysTrustNotebooks": true,
+	"gitlens.advanced.messages": {
+		"suppressGitMissingWarning": true
+	},
+	"git.ignoreMissingGitWarning": true,
+	"editor.formatOnSave": true,
+	"editor.defaultFormatter": "ms-vscode.cpptools"
 }
