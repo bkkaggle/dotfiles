@@ -12,6 +12,8 @@
 	"editor.fontFamily": "JetBrains Mono, Fira Code,  Menlo, Monaco, 'Courier New', monospace",
 	"editor.fontLigatures": "tab",
 	"editor.minimap.enabled": false,
+	"editor.formatOnSave": true,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
 	"workbench.iconTheme": "material-icon-theme",
 	"workbench.colorTheme": "GitHub Dark",
 	"workbench.startupEditor": "none",
@@ -39,33 +41,14 @@
 	"javascript.updateImportsOnFileMove.enabled": "always",
 	"python.languageServer": "Pylance",
 	"python.showStartPage": false,
+	"python.pythonPath": "/Users/bilal/miniconda3/envs/py38/bin/python",
 	"jupyter.textOutputLimit": 0,
 	"jupyter.askForKernelRestart": false,
-	"latex-workshop.view.pdf.viewer": "tab",
-	"latex-workshop.docker.image.latex": "tianon/latexlatexindent",
+	"jupyter.alwaysTrustNotebooks": true,
 	"rust-analyzer.debug.openDebugPane": true,
 	"rust-analyzer.checkOnSave.command": "clippy",
 	"C_Cpp.default.intelliSenseMode": "clang-x64",
-	"[json]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	"[javascript]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
 	"[python]": {
 		"editor.defaultFormatter": "ms-python.python"
-	},
-	"[jsonc]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	"[html]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	"jupyter.alwaysTrustNotebooks": true,
-	"gitlens.advanced.messages": {
-		"suppressGitMissingWarning": true
-	},
-	"git.ignoreMissingGitWarning": true,
-	"editor.formatOnSave": true,
-	"editor.defaultFormatter": "ms-vscode.cpptools"
+	}
 }

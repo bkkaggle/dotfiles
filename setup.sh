@@ -15,7 +15,7 @@ codesign --remove-signature /Applications/Visual\ Studio\ Code.app/Contents/Fram
 
 # homebrew
 #/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-#brew install vim neovim wget llvm tmux starship exa bat
+#brew install vim neovim wget llvm tmux starship exa bat dozer
 #brew install --cask mactex
 
 # node
@@ -23,11 +23,10 @@ codesign --remove-signature /Applications/Visual\ Studio\ Code.app/Contents/Fram
 #nvm install node
 
 # nvim
-# run `:PlugInstall` and `:CocInstall coc-tsserver coc-json coc-html coc-css coc-clangd coc-rust-analyzer coc-latex coc-python` in nvim
+# run `:PlugInstall` and `:CocInstall coc-tsserver coc-json coc-html coc-css coc-clangd coc-rust-analyzer coc-python` in nvim
 #curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ln -sf ~/Documents/dotfiles/.vimrc ~/.vimrc
 ln -sf ~/Documents/dotfiles/init.vim ~/.config/nvim/init.vim
-ln -sf ~/Documents/dotfiles/tex.snippets ~/.vim/UltiSnips/tex.snippets
 
 # conda
 # `conda create -n py38 python=3.8`
