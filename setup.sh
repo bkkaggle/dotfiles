@@ -8,6 +8,7 @@ ln -sf ~/Documents/dotfiles/.zshrc ~/.zshrc
 touch ~/.hushlogin
 
 # git config
+# sign commits
 git config --global core.excludesfile ~/.gitignore
 ln -sf ~/Documents/dotfiles/.gitconfig ~/.gitconfig
 ln -sf ~/Documents/dotfiles/.gitignore ~/.gitignore
