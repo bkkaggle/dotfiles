@@ -33,3 +33,6 @@ eval "$(starship init zsh)"
 
 alias v='nvim'
 alias e='exa'
+
+# git signed commits
+export GPG_TTY=$(tty)

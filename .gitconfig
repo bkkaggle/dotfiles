@@ -1,6 +1,7 @@
 [user]
     name = Bilal Khan
     email = bilal2vec@gmail.com
+	signingkey = BA3ECA6D7195628E
 [credential]
     helper = osxkeychain
 [core]
