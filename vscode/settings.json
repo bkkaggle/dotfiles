@@ -15,7 +15,6 @@
 	"editor.formatOnSave": true,
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
 	"workbench.iconTheme": "material-icon-theme",
-	"workbench.colorTheme": "GitHub Dark",
 	"workbench.startupEditor": "none",
 	"workbench.colorCustomizations": {
 		"gitlens.trailingLineForegroundColor": "#999999",
@@ -50,5 +49,12 @@
 	"C_Cpp.default.intelliSenseMode": "clang-x64",
 	"[python]": {
 		"editor.defaultFormatter": "ms-python.python"
-	}
+	},
+	"[rust]": {
+		"editor.defaultFormatter": "statiolake.vscode-rustfmt"
+	},
+	"gitlens.advanced.messages": {
+		"suppressImproperWorkspaceCasingWarning": true
+	},
+	"workbench.colorTheme": "GitHub Dark"
 }

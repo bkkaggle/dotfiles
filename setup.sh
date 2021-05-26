@@ -1,5 +1,7 @@
 #!/bin/zsh
 
+ln -sf /Volumes/500GB ~/
+
 # zsh
 #sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ln -sf ~/Documents/dotfiles/.zshrc ~/.zshrc
@@ -44,3 +46,4 @@ ln -sf ~/Documents/dotfiles/starship.toml ~/.config/starship.toml
 
 # vscode
 ln -sf ~/Documents/dotfiles/vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
+ln -sf ~/Documents/dotfiles/vscode/keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json
