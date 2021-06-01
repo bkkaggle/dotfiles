@@ -20,6 +20,8 @@ codesign --remove-signature /Applications/Visual\ Studio\ Code.app/Contents/Fram
 #/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 #brew install vim neovim wget llvm tmux starship exa bat dozer
 #brew install --cask mactex
+#brew tap homebrew/cask-fonts
+#brew install --cask font-jetbrains-mono
 
 # node
 #curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash
@@ -28,6 +30,7 @@ codesign --remove-signature /Applications/Visual\ Studio\ Code.app/Contents/Fram
 # nvim
 # run `:PlugInstall` and `:CocInstall coc-tsserver coc-json coc-html coc-css coc-clangd coc-rust-analyzer coc-python` in nvim
 #curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+#python3 -m pip install --user --upgrade pynvim
 ln -sf ~/Documents/dotfiles/.vimrc ~/.vimrc
 ln -sf ~/Documents/dotfiles/init.vim ~/.config/nvim/init.vim
 
