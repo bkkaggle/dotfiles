@@ -21,7 +21,7 @@ codesign --remove-signature /Applications/Visual\ Studio\ Code.app/Contents/Fram
 #brew install vim neovim wget llvm tmux starship exa bat dozer golang
 #brew install --cask mactex
 #brew tap homebrew/cask-fonts
-#brew install --cask font-jetbrains-mono
+#brew install --cask font-jetbrains-mono docker
 
 # node
 #curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash

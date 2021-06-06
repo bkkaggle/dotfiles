@@ -53,6 +53,9 @@
 	"[rust]": {
 		"editor.defaultFormatter": "statiolake.vscode-rustfmt"
 	},
+	"[go]": {
+		"editor.defaultFormatter": "golang.go"
+	},
 	"gitlens.advanced.messages": {
 		"suppressImproperWorkspaceCasingWarning": true
 	},
