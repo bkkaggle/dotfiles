@@ -20,12 +20,9 @@
 		"gitlens.trailingLineForegroundColor": "#999999",
 		"gitlens.lineHighlightOverviewRulerColor": "#ff0000"
 	},
-	"workbench.editorAssociations": [
-		{
-			"viewType": "jupyter.notebook.ipynb",
-			"filenamePattern": "*.ipynb"
-		}
-	],
+	"workbench.editorAssociations": {
+		"*.ipynb": "jupyter.notebook.ipynb"
+	},
 	"task.problemMatchers.neverPrompt": {
 		"shell": true
 	},
@@ -59,5 +56,7 @@
 	"gitlens.advanced.messages": {
 		"suppressImproperWorkspaceCasingWarning": true
 	},
-	"workbench.colorTheme": "GitHub Dark"
+	"workbench.colorTheme": "GitHub Dark",
+	"workbench.editor.untitled.hint": "hidden",
+	"go.toolsManagement.autoUpdate": true
 }

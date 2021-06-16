@@ -36,3 +36,9 @@ alias e='exa'
 
 # git signed commits
 export GPG_TTY=$(tty)
+
+#Docker/K8s
+alias d='docker'
+alias k='kubectl'
+complete -F __start_kubectl k
+source <(kubectl completion zsh)
