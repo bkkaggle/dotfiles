@@ -14,14 +14,16 @@
 	"editor.minimap.enabled": false,
 	"editor.formatOnSave": true,
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
-	"workbench.iconTheme": "material-icon-theme",
+	"workbench.colorTheme": "GitHub Dark",
+	"workbench.editor.untitled.hint": "hidden",
+    "workbench.iconTheme": "material-icon-theme",
 	"workbench.startupEditor": "none",
 	"workbench.colorCustomizations": {
 		"gitlens.trailingLineForegroundColor": "#999999",
 		"gitlens.lineHighlightOverviewRulerColor": "#ff0000"
 	},
 	"workbench.editorAssociations": {
-		"*.ipynb": "jupyter.notebook.ipynb"
+		"*.ipynb": "jupyter-notebook"
 	},
 	"task.problemMatchers.neverPrompt": {
 		"shell": true
@@ -38,6 +40,7 @@
 	"python.languageServer": "Pylance",
 	"python.showStartPage": false,
 	"python.pythonPath": "/Users/bilal/miniconda3/envs/py38/bin/python",
+	"python.defaultInterpreterPath": "/Users/bilal/miniconda3/envs/py38/bin/python",
 	"jupyter.textOutputLimit": 0,
 	"jupyter.askForKernelRestart": false,
 	"jupyter.alwaysTrustNotebooks": true,
@@ -56,7 +59,8 @@
 	"gitlens.advanced.messages": {
 		"suppressImproperWorkspaceCasingWarning": true
 	},
-	"workbench.colorTheme": "GitHub Dark",
-	"workbench.editor.untitled.hint": "hidden",
-	"go.toolsManagement.autoUpdate": true
+	"notebook.cellToolbarLocation": {
+		"default": "right",
+		"jupyter-notebook": "left"
+	}
 }

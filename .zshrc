@@ -31,9 +31,6 @@ if [ -f '/Users/bilal/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/bil
 # starship
 eval "$(starship init zsh)"
 
-alias v='nvim'
-alias l='exa'
-
 # git signed commits
 export GPG_TTY=$(tty)
 
@@ -42,3 +39,26 @@ alias d='docker'
 alias k='kubectl'
 complete -F __start_kubectl k
 source <(kubectl completion zsh)
+
+# general aliases
+alias v='nvim'
+alias l='exa'
+alias ll='exa -al'
+alias ..='cd ..'
+alias ~='cd ~'
+alias st='git status'
+alias add='git add .'
+alias cm='git commit -m '
+alias ph='git push'
+alias pl='git pull'
+alias br='git branch'
+alias ck='git checkout'
+alias ckb='git checkout -b'
+
+alias gsls='gsutil ls'
+alias gscat='gsutil cat'
+
+alias doc='cd ~/Documents'
+alias desk='cd ~/Desktop'
+alias down='cd ~/Downloads'
+alias py='python'
