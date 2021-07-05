@@ -29,9 +29,10 @@ codesign --remove-signature /Applications/Visual\ Studio\ Code.app/Contents/Fram
 
 # nvim
 # run `:PlugInstall` and `:CocInstall coc-tsserver coc-json coc-html coc-css coc-clangd coc-rust-analyzer coc-python` in nvim
-#curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+# sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 #python3 -m pip install --user --upgrade pynvim
 ln -sf ~/Documents/dotfiles/.vimrc ~/.vimrc
+# mkdir ~/.config/nvim
 ln -sf ~/Documents/dotfiles/init.vim ~/.config/nvim/init.vim
 
 # conda
