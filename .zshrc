@@ -1,4 +1,4 @@
-# oh-my-zsh
+# oh-my-zsh 
 export ZSH="/Users/bilal/.oh-my-zsh"
 plugins=(git)
 source $ZSH/oh-my-zsh.sh
@@ -46,19 +46,12 @@ alias l='exa'
 alias ll='exa -al'
 alias ..='cd ..'
 alias ~='cd ~'
-alias st='git status'
-alias add='git add .'
-alias cm='git commit -m '
-alias ph='git push'
-alias pl='git pull'
-alias br='git branch'
-alias ck='git checkout'
-alias ckb='git checkout -b'
+alias gs='git status'
+alias ga='git add .'
+alias gc='git commit -m '
+alias gb='git branch'
 
 alias gsls='gsutil ls'
 alias gscat='gsutil cat'
 
-alias doc='cd ~/Documents'
-alias desk='cd ~/Desktop'
-alias down='cd ~/Downloads'
 alias py='python'
